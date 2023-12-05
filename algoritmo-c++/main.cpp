@@ -18,7 +18,6 @@ struct Item
 // Comparar dois itens com base na rua razão valor-peso
 bool comparacao(Item a, Item b)
 {
-    cout << a.razaoValorPeso << "/" << b.razaoValorPeso << endl;
     return a.razaoValorPeso > b.razaoValorPeso;
 }
 
